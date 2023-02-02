@@ -1,0 +1,678 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="about.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,600;0,700;1,100;1,300;1,400&family=Cormorant+SC:wght@300;400&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mukta:wght@200&family=Noto+Serif+NP+Hmong&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@1,300&family=Passion+One:wght@400;700;900&family=Poppins:wght@600&family=Roboto+Flex:opsz,wght@8..144,100&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Moonrocks&family=Saira+Stencil+One&family=Splash&family=The+Nautigal&family=Work+Sans:wght@200;300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="service.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Booster Programming</title>
+</head>
+<style>
+    body {
+        background-color: black;
+        /* background-image: url(hb.png); */
+        /* background-repeat: no-repeat; */
+        background-size: contain;
+        backdrop-filter: blur(5px);
+    }
+
+    @media (max-width: 1326px) {
+        body {
+            background-image: none !important;
+            background-color: black;
+        }
+    }
+
+    .text-center{
+    margin-bottom: 40px;
+}
+    .top-nav span {
+        text-shadow: 2px 0 3px black;
+    }
+</style>
+
+<body>
+    <div class="top-nav">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-auto">
+                    <p>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <span>Booster@gmail.com</span>
+                    </p>
+                    <p>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <span>9810234567</span>
+                    </p>
+                </div>
+                <div class="col-auto">
+                    <div class="social-link">
+                        <a href="https://www.facebook.com/login/" target="_blank"><i class="fa fa-facebook"
+                                aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"
+                                aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa fa-twitter"
+                                aria-hidden="true"></i></a>
+                        <a href="https://accounts.snapchat.com/accounts/login?continue=%2Faccounts%2Fwelcome"
+                            target="_blank"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="logo.png" alt="Booster Programming" style="width: 170px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="nav-link" href="about.html">Services</a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="nav-link" href="services.html">About</a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="nav-link" href="product.html">Produces</a>
+                    </li>
+
+                    <a href="#" class="btn btn-brand ms-lg-3"><span class="text-dark">Contact Us</span></a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="product my-5">
+        <div class="container my-5">
+            <section class="product2">
+                <div class="row my-5">
+                    <div class="col-lg-12 col-md-12 col-12">
+                        <h1 class="text-center text-white my-5">OUR PRODUCTS</h1>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-content text-center">
+                        <h2 class="my-3 text-white">OUR BEST <span class="text-warning">PRODUCTS</span></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam corrupti fugit non, delectus
+                            blanditiis
+                            nisi voluptatum, dolorem natus repellendus rerum ducimus! Sunt dicta optio dolores nesciunt,
+                            totam hic
+                            ipsum alias!</p>
+                    </div>
+                    <div class="col-12">
+                        <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="jwellery-tab" data-bs-toggle="tab"
+                                    data-bs-target="#jwellery" type="button" role="tab" aria-controls="jwellery"
+                                    aria-selected="true">IPHONE</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="ring-tab" data-bs-toggle="tab" data-bs-target="#ring"
+                                    type="button" role="tab" aria-controls="jwellery" aria-selected="false">MECHANICAL
+                                    KEYBOARD</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link text-center" id="earings-tab" data-bs-toggle="tab"
+                                    data-bs-target="#earings" type="button" role="tab" aria-controls="jwellery"
+                                    aria-selected="false">MECHANICAL MOUSE</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="jwellery" role="tabpanel"
+                                aria-labelledby="jwellery-tab">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6 mb-3">
+                                        <div class="item-product">
+                                            <a href="#" class="product-thumb-link">
+                                                <img src="I1.png" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="d-flex justify-content-between py-3">
+                                                <a href="#" class="cat-parent">BOOSTER PROGRAMMING</a>
+                                                <a href="#" class="wishlist">
+                                                    <i class="fa fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <h4 class="product-title">
+                                                <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                    elit.</a>
+                                            </h4>
+                                            <div class="product-price">
+                                                <ins><span class="money text-white">$300.00</span></ins>
+                                            </div>
+                                            <div class="d-flex align-item-center justify-content-between py-1">
+                                                <div class="rating">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <div class="basket">
+                                                    <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 mb-3">
+                                        <div class="item-product">
+                                            <a href="#" class="product-thumb-link">
+                                                <img src="I2.png" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="d-flex justify-content-between py-3">
+                                                <a href="#" class="cat-parent">BOOSTER PROGRAMMING</a>
+                                                <a href="#" class="wishlist">
+                                                    <i class="fa fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <h4 class="product-title">
+                                                <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                    elit.</a>
+                                            </h4>
+                                            <div class="product-price">
+                                                <ins><span class="money text-white">$300.00</span></ins>
+                                            </div>
+                                            <div class="d-flex align-item-center justify-content-between py-1">
+                                                <div class="rating">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <div class="basket">
+                                                    <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 mb-3">
+                                        <div class="item-product">
+                                            <a href="#" class="product-thumb-link">
+                                                <img src="I3.png" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="d-flex justify-content-between py-3">
+                                                <a href="#" class="cat-parent">BOOSTER PROGRAMMING</a>
+                                                <a href="#" class="wishlist">
+                                                    <i class="fa fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <h4 class="product-title">
+                                                <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                    elit.</a>
+                                            </h4>
+                                            <div class="product-price">
+                                                <ins><span class="money text-white">$300.00</span></ins>
+                                            </div>
+                                            <div class="d-flex align-item-center justify-content-between py-1">
+                                                <div class="rating">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <div class="basket">
+                                                    <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 mb-3">
+                                        <div class="item-product">
+                                            <a href="#" class="product-thumb-link">
+                                                <img src="I1.png" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="d-flex justify-content-between py-3">
+                                                <a href="#" class="cat-parent">BOOSTER PROGRAMMING</a>
+                                                <a href="#" class="wishlist">
+                                                    <i class="fa fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <h4 class="product-title">
+                                                <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                    elit.</a>
+                                            </h4>
+                                            <div class="product-price">
+                                                <ins><span class="money text-white">$300.00</span></ins>
+                                            </div>
+                                            <div class="d-flex align-item-center justify-content-between py-1">
+                                                <div class="rating">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <div class="basket">
+                                                    <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="ring" role="tabpanel" aria-labelledby="ring-tab">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6 mb-3">
+                                        <div class="item-product">
+                                            <a href="#" class="product-thumb-link">
+                                                <img src="K1.png" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="d-flex justify-content-between py-3">
+                                                <a href="#" class="cat-parent">BOOSTER PROGRAMMING</a>
+                                                <a href="#" class="wishlist">
+                                                    <i class="fa fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <h4 class="product-title">
+                                                <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                    elit.</a>
+                                            </h4>
+                                            <div class="product-price">
+                                                <ins><span class="money text-white">$100.00</span></ins>
+                                            </div>
+                                            <div class="d-flex align-item-center justify-content-between py-1">
+                                                <div class="rating">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <div class="basket">
+                                                    <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 mb-3">
+                                        <div class="item-product">
+                                            <a href="#" class="product-thumb-link">
+                                                <img src="K2.png" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="d-flex justify-content-between py-3">
+                                                <a href="#" class="cat-parent">BOOSTER PROGRAMMING</a>
+                                                <a href="#" class="wishlist">
+                                                    <i class="fa fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <h4 class="product-title">
+                                                <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                    elit.</a>
+                                            </h4>
+                                            <div class="product-price">
+                                                <ins><span class="money text-white">$100.00</span></ins>
+                                            </div>
+                                            <div class="d-flex align-item-center justify-content-between py-1">
+                                                <div class="rating">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <div class="basket">
+                                                    <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 mb-3">
+                                        <div class="item-product">
+                                            <a href="#" class="product-thumb-link">
+                                                <img src="K3.png" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="d-flex justify-content-between py-3">
+                                                <a href="#" class="cat-parent">BOOSTER PROGRAMMING</a>
+                                                <a href="#" class="wishlist">
+                                                    <i class="fa fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <h4 class="product-title">
+                                                <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                    elit.</a>
+                                            </h4>
+                                            <div class="product-price">
+                                                <ins><span class="money text-white">$100.00</span></ins>
+                                            </div>
+                                            <div class="d-flex align-item-center justify-content-between py-1">
+                                                <div class="rating">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <div class="basket">
+                                                    <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 mb-3">
+                                        <div class="item-product">
+                                            <a href="#" class="product-thumb-link">
+                                                <img src="K4.png" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="d-flex justify-content-between py-3">
+                                                <a href="#" class="cat-parent">BOOSTER PROGRAMMING</a>
+                                                <a href="#" class="wishlist">
+                                                    <i class="fa fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <h4 class="product-title">
+                                                <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                    elit.</a>
+                                            </h4>
+                                            <div class="product-price">
+                                                <ins><span class="money text-white">$50.00</span></ins>
+                                            </div>
+                                            <div class="d-flex align-item-center justify-content-between py-1">
+                                                <div class="rating">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <div class="basket">
+                                                    <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="earings" role="tabpanel" aria-labelledby="earings-tab">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6 mb-3">
+                                        <div class="item-product">
+                                            <a href="#" class="product-thumb-link">
+                                                <img src="m1.png" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="d-flex justify-content-between py-3">
+                                                <a href="#" class="cat-parent">BOOSTER PROGRAMMING</a>
+                                                <a href="#" class="wishlist">
+                                                    <i class="fa fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <h4 class="product-title">
+                                                <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                    elit.</a>
+                                            </h4>
+                                            <div class="product-price">
+                                                <ins><span class="money text-white">$50.00</span></ins>
+                                            </div>
+                                            <div class="d-flex align-item-center justify-content-between py-1">
+                                                <div class="rating">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <div class="basket">
+                                                    <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 mb-3">
+                                        <div class="item-product">
+                                            <a href="#" class="product-thumb-link">
+                                                <img src="m2.png" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="d-flex justify-content-between py-3">
+                                                <a href="#" class="cat-parent">BOOSTER PROGRAMMING</a>
+                                                <a href="#" class="wishlist">
+                                                    <i class="fa fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <h4 class="product-title">
+                                                <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                    elit.</a>
+                                            </h4>
+                                            <div class="product-price">
+                                                <ins><span class="money text-white">$50.00</span></ins>
+                                            </div>
+                                            <div class="d-flex align-item-center justify-content-between py-1">
+                                                <div class="rating">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <div class="basket">
+                                                    <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 mb-3">
+                                        <div class="item-product">
+                                            <a href="#" class="product-thumb-link">
+                                                <img src="m3.png" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="d-flex justify-content-between py-3">
+                                                <a href="#" class="cat-parent">BOOSTER PROGRAMMING</a>
+                                                <a href="#" class="wishlist">
+                                                    <i class="fa fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <h4 class="product-title">
+                                                <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                    elit.</a>
+                                            </h4>
+                                            <div class="product-price">
+                                                <ins><span class="money text-white">$300.00</span></ins>
+                                            </div>
+                                            <div class="d-flex align-item-center justify-content-between py-1">
+                                                <div class="rating">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <div class="basket">
+                                                    <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 mb-3">
+                                        <div class="item-product">
+                                            <a href="#" class="product-thumb-link">
+                                                <img src="m4.png" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="d-flex justify-content-between py-3">
+                                                <a href="#" class="cat-parent">BOOSTER PROGRAMMING</a>
+                                                <a href="#" class="wishlist">
+                                                    <i class="fa fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <h4 class="product-title">
+                                                <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                    elit.</a>
+                                            </h4>
+                                            <div class="product-price">
+                                                <ins><span class="money text-white">$300.00</span></ins>
+                                            </div>
+                                            <div class="d-flex align-item-center justify-content-between py-1">
+                                                <div class="rating">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <div class="basket">
+                                                    <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ************************* DOWN SECTION STARTED ************************** -->
+
+    <section class="down">
+        <div class="container">
+            <div class="row align-items-center text-center text-md-left">
+              <div class="col-md-6 pr-md-5 ck my-5 py-3">
+                <img src="khm.png" width="100%" alt="">
+              </div>
+              <div class="col-md-6 pl-md-5 text-white my-2 content mb-4">
+                <h1>ELECTRONIC GADGETS.</h1>
+                <h2>UP TO <span class="k text-warning">50%</span> OFF</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid et quis, itaque doloribus voluptatem
+                  molestias.</p>
+                <a href="#" class="btn btn-brand ms-lg-3"><span class="text-dark">Shop Now</span></a>
+              </div>
+  
+  
+            </div>
+  
+          </div>
+    </section>
+
+    <!-- ************************ DOWN SECTION ENDED ****************************** -->
+    <!-- ******************** Footer Section Started *************************** -->
+
+
+    <footer class="footersection" id="footerfdiv">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 footer-div">
+                    <div>
+                        <h3>ABOUT BOOSTER PROGRAMMING</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis tempora quaerat rerum enim
+                            cupiditate quod maxime voluptatum, cumque, provident repudiandae deleniti? Tempore vero, sit
+                            quisquam voluptatum quos saepe repellendus consequatur.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 footer-div text-center">
+                    <div>
+                        <h3 class="rr">NAVIGATION LINK</h3>
+                        <li><a href="#topheader">Home</a></li>
+                        <li><a href="#servicediv">Services</a></li>
+                        <li><a href="#pricingdiv">Price</a></li>
+                        <li><a href="#ramsita">About</a></li>
+                        <li><a href="#contactid">Contact</a></li>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 footer-div">
+                    <div>
+                        <h3 class="rk5">NEWSLETTER</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="container newsletter-main">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-12">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control muji" placeholder="Comment Me!"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-text" id="basic-addon2">SUBMIT</span>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 text-center">
+                <p>Copyright @2023 All right reserved | This Template is made with love by Rohit Kumar Sah.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- ********************* Footer Section Ended ***************************** -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

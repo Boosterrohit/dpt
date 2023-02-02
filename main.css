@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth !important;
+}
+body{
+    background-color: black;
+    font-family: 'Barlow', sans-serif;
+    background-image: url(hb.png);
+    background-size: contain;
+    backdrop-filter: blur(5px);
+}
+.home{
+    margin-bottom: 100px !important;
+}
+@media (max-width: 767px){
+    .header{
+        height: auto;
+    }
+ .home{
+    height: auto;
+    margin-bottom: 45px !important;
+ }   
+}
+.top-nav{
+    background: linear-gradient(to right, rgba(255,255,255,0.3), rgba(255,255,255,0.4));
+    /* filter: blur(1px); */
+    backdrop-filter: blur(2px);
+    padding-top: 6px;
+    padding-bottom: 5px;
+    box-shadow: 0 5px 6px rgba(255,255,255,0.5);
+}
+.top-nav p{
+    margin-top: 2px;
+display: inline;
+margin-right: 20px;
+font-size: 1rem !important;
+margin-bottom: 0;
+font-weight: bold;
+color: white;
+z-index: -1;
+}
+.top-nav i,
+.top-nav span{
+    vertical-align: middle;
+}
+.col-auto{
+    margin-top: 4px !important;
+}
+.social-link a{
+    text-decoration: none;
+    list-style: none;
+    background-color: rgba(255,255,255,0.3);
+    width: 33px !important;
+    height: 33px !important;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    /* text-shadow: 5px 0 6px black !important; */
+    font-size: 15px;
+    transition: all 0.4s ease;
+}
+.social-link a:hover{
+    background-color: rgba(255,255,255,0.9);
+    color: black;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(255,255,255,0.3);
+}
+
+@media (max-width: 519px){
+    .top-nav{
+        display: none;
+    }
+}
+
+.navbar{
+    background: linear-gradient(to right, rgba(255,255,255,0.4),rgba(255,255,255,0.5));
+    box-shadow: 0 2px 3px  rgba(255,255,255,0.8);
+    backdrop-filter: blur(15px);
+}
+.navbar-light .navbar-nav a {
+    font-weight: bold;
+    color: #fff !important;
+    text-shadow: 2px 0 3px black;
+}
+.btn-brand{
+    background-color: rgba(255,255,255,0.5);
+    transition: all 0.4s ease;
+    
+    /* color: black !important; */
+}
+.btn-brand:hover{
+    background: linear-gradient(45deg, #00ccff, rgba(255,255,255,0.3), rgba(255,255,255,0.3),#d400d4);
+    transform: translateY(-5PX);
+    border-radius: 10px;
+}
+.mango{
+    width: 100%;
+    border: 3px solid white;
+    height: 75vh;
+    /* position: fixed; */
+}
+.kk img{
+    border-radius: 10px;
+}
+@media (max-width: 400px){
+    .kk img{
+        width: 230px !important;
+        height: auto;
+    }
+    .kk{
+        height: auto;
+        margin: auto !important;
+    }
+}
+/* header ended */
+.ck img{
+    border-radius: 25px;
+}
+.home{
+    background-color: rgba(255,255,255,0.3);
+border-radius: 5px;
+/* border: 3px solid rgba(255,255,255,0.9);
+ */
+ backdrop-filter: blur(5px);
+ /* z-index: -1; */
+ box-shadow: 0 0 2px 1.5px  rgba(255,255,255,0.8);
+}
+.content{
+    z-index: 1000;
+    font-weight: bold;
+    
+}
+.content h1, h2, p{
+    text-shadow: 2px 0 3px black;
+    font-weight: bold;
+}
+.k{
+    color: orange;
+}
+
+.text-dark {
+    font-weight: bold;
+}
+/* ===================== Offer Section Started ============================= */
+
+
+.title{
+    margin-top: -42px;
+    text-shadow: 2px 3px 0 black;
+    color: white;
+    font-weight: bold;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: white;
+    text-shadow: 2px 0 3px  black;
+}
+.second{
+    margin-top: 25px;
+}
+.text-center{
+    margin-bottom: 40px;
+}
+.second p{
+    color: white;
+    font-weight: bold;
+}
+.ti{
+    color: orange;
+    text-shadow: 2px 0 3px white;
+}
+.card{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    margin-top: 2rem !important;
+    backdrop-filter: blur(5px);
+    
+box-shadow: 1.3rem 1.3rem 1.3rem rgba(0,0,0,0.5);
+border-top-color: rgba(225,225,225,0.5);
+border-left-color: rgba(225,225,225,0.5);
+border-right-color: rgba(225,225,225,0.1);
+border-bottom-color: rgba(225,225,225,0.1);
+transition: all .5s ease;
+}
+.cb1{
+    background-color: rgba(255,255,255,0.1);
+}
+.card:hover{
+transform: translateY(-20px);
+box-shadow: 0 2px 5px rgba(225,225,225,0.5);
+}
+.cb2{
+    background: linear-gradient(to right bottom, rgba(225,225,225,0.5), rgba(225,225,225,0.3));
+}
+.card-number{
+    color: rgba(225,225,225,0.3);
+    font-size: 5rem;
+    font-weight: bold;
+    position: absolute;
+    top: -1.5rem;
+    z-index: -1;
+    right: 3rem;
+}
+.text-black {
+    font-weight: bold;
+}
+/* ======================= Offer Section Ended ============================== */
+/* ======================= Global company start =========================== */
+
+.g1{
+    color: orange;
+}
+.gg{
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 0 3px white;
+}
+.team-member .image-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+.global img{
+    height: 400px;
+    /* border-radius: 20px; */
+}
+.team-member .overlay{
+    position: absolute;
+    top: -20%;
+    left: 0;
+    /* bottom: 3.5% !important; */
+    width: 100%;
+    height: 100%;
+    /* border-radius: 20px; */
+    background-color: rgba(225,225,225,0.6);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+.team-member .social-link{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    /* font-size: 2rem !important; */
+    transform: translate(-50%,-50%);
+    transition: all 0.4 ease; 
+    opacity: 0;
+    /* background-color: #d400d4;
+     */
+     /* color: orange; */
+}
+.kg{
+    font-weight: bold;
+}
+.team-member .social-link a{
+    /* color: rosybrown; */
+    background-color: rgb(163, 121, 41);
+}
+.team-member:hover .overlay{
+    opacity: 1;
+    top: 0;
+}
+.team-member:hover .social-link{
+    opacity: 1;
+    top: 50%;
+}
+/* ====================== Global Company Ended ========================= */
+/* ============ ZOOM EFFECT START ===================*/
+/* .zoom-effect{
+    background-image: url(hb2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.cont1{
+    background-color: orange;
+}
+.accordion-body{
+    text-align: left;
+    background: linear-gradient(332deg, black, transparent);
+}
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 0;
+    background: linear-gradient(8deg, black, transparent);
+}
+.accordion-body {
+    font-weight: bold;
+    text-shadow: 2px 0 3px black;
+}
+.f{
+    font-weight: bold;
+    text-shadow: 2px 0 3px white;
+}
+.gh{
+    font-weight: bold;
+    text-shadow: 2px 0 3px black;
+}
+.accordion-button{
+    font-weight: bold;
+    text-shadow: 2px 0 3px black;
+}
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: none;
+}
+.last .boom{
+    background: linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.637)),url(people.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    width: 100%;
+    /* border: 5px solid rgba(225,225,225,0.8);
+     */
+     box-shadow: 0 0 2px 5px rgba(225,225,225,0.6);
+    
+}
+/* =================== ZOOM EFFECT END ======================= */
+/* ================ enroll started =========================== */
+
+.pe{
+    margin-top: 100px !important;
+    font-weight: bold;
+
+}
+.pb{
+    font-weight: bold;
+    margin-bottom: 100px !important;
+}
+
+
+/* ==================== enroll ended ======================= */
+/* footer */
+.footersection{
+    width: 100%;
+    height: auto;
+    padding: 70px 0 10px 0;
+    /* background-color: #00abff; */
+    /* background: linear-gradient(rgba(225,225,225,0.6),rgba(225,225,225,0.8)); */
+    background-color: rgba(225,225,225,0.3);
+    /* backdrop-filter: blur(10px); */
+    /* z-index: 1; */
+/* background-position: center;
+background-size: cover; */
+
+    position: relative;
+}
+.footersection p{
+    color: #fff;
+}
+.footersection li a{
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #fff;
+    text-align: center !important;
+}
+.footersection h3{
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+.scrolltop{
+ color: orange;
+    float: right;
+}
+#mybtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    color: #fff;
+    background-color: #ff4d29;
+    padding: 10px;
+    border-radius: 10px;
+}
+#mybtn:hover{
+background-color: #606060;
+
+}
+.footer-div li{
+    list-style-type: none;
+    font-weight: bold;
+}
